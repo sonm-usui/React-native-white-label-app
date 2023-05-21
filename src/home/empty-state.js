@@ -8,7 +8,7 @@ export const EmptyState = () => {
   return (
     <View style={styles.container}>
       <ImageBackground
-        source={require('../images/home_background.png')}
+        source={require('../images/selise-logo.png')}
         style={styles.backgroundImage}
         resizeMode="contain"
       >
