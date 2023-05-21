@@ -12,9 +12,9 @@ export const EmptyState = () => {
         style={styles.backgroundImage}
         resizeMode="contain"
       >
-        <Text style={styles.infoText}>
-          You design goes here
-        </Text>
+        {/*<Text style={styles.infoText}>*/}
+        {/*  You design goes here*/}
+        {/*</Text>*/}
         <Image
           source={require('../images/powered_by_logo.png')}
           style={styles.image}
