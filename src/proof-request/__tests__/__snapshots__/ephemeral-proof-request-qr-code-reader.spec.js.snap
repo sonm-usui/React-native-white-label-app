@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ephemeral-proof-request-qr-code-reader should match valid ephemeral proof request qr code 1`] = `null`;
+
+exports[`ephemeral-proof-request-qr-code-reader should match valid ephemeral proof request with null comment, and null routingKeys 1`] = `null`;

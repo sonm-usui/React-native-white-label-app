@@ -1,0 +1,963 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MyConnectionsScreen /> should render MyConnections and redirect user to claim offer modal 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RNCSafeAreaProvider
+    onInsetsChange={[Function]}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      pointerEvents="box-none"
+      style={
+        Object {
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        onLayout={[Function]}
+        pointerEvents="box-none"
+        style={null}
+      >
+        <View
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "opacity": 1,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "zIndex": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "rgb(255, 255, 255)",
+                "borderBottomColor": "rgb(216, 216, 216)",
+                "flex": 1,
+                "shadowColor": "rgb(216, 216, 216)",
+                "shadowOffset": Object {
+                  "height": 0.5,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.85,
+                "shadowRadius": 0,
+              }
+            }
+          />
+        </View>
+        <View
+          pointerEvents="box-none"
+          style={
+            Object {
+              "height": 64,
+              "maxHeight": undefined,
+              "minHeight": undefined,
+              "opacity": undefined,
+              "transform": undefined,
+            }
+          }
+        >
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 20,
+              }
+            }
+          />
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              pointerEvents="box-none"
+              style={
+                Object {
+                  "marginHorizontal": 16,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                accessibilityRole="header"
+                aria-level="1"
+                collapsable={false}
+                nativeID="animatedComponent"
+                numberOfLines={1}
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 17,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                MockedScreen
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <RNSScreenContainer
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <RNSScreen
+        activityState={2}
+        forwardedRef={[Function]}
+        pointerEvents="box-none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        />
+        <View
+          accessibilityElementsHidden={false}
+          closing={false}
+          gestureVelocityImpact={0.3}
+          importantForAccessibility="auto"
+          onClose={[Function]}
+          onGestureBegin={[Function]}
+          onGestureCanceled={[Function]}
+          onGestureEnd={[Function]}
+          onOpen={[Function]}
+          onTransitionStart={[Function]}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          transitionSpec={
+            Object {
+              "close": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
+                  "stiffness": 1000,
+                },
+              },
+              "open": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
+                  "stiffness": 1000,
+                },
+              },
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            nativeID="animatedComponent"
+            needsOffscreenAlphaCompositing={false}
+            pointerEvents="box-none"
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              enabled={false}
+              hitSlop={
+                Object {
+                  "right": -270,
+                }
+              }
+              maxDeltaY={20}
+              minOffsetX={5}
+              onHandlerStateChange={[Function]}
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "transform": Array [
+                      Object {
+                        "translateX": 0,
+                      },
+                      Object {
+                        "translateX": 0,
+                      },
+                    ],
+                  }
+                }
+              >
+                <View
+                  pointerEvents="none"
+                  style={
+                    Object {
+                      "backgroundColor": "rgb(242, 242, 242)",
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "shadowColor": "#000",
+                      "shadowOffset": Object {
+                        "height": 1,
+                        "width": -1,
+                      },
+                      "shadowOpacity": 0.3,
+                      "shadowRadius": 5,
+                      "top": 0,
+                      "width": 3,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "flex": 1,
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "rgb(242, 242, 242)",
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "flexDirection": "column-reverse",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "flex": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "backgroundColor": "#FFFFFF",
+                              "flex": 1,
+                              "height": "100%",
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <RCTScrollView
+                            contentContainerStyle={
+                              Object {
+                                "margin": 15,
+                                "marginBottom": 40,
+                                "padding": 10,
+                                "paddingBottom": 166.35714285714286,
+                              }
+                            }
+                            data={Array []}
+                            getItem={[Function]}
+                            getItemCount={[Function]}
+                            keyExtractor={[Function]}
+                            onContentSizeChange={[Function]}
+                            onLayout={[Function]}
+                            onMomentumScrollBegin={[Function]}
+                            onMomentumScrollEnd={[Function]}
+                            onRefresh={[Function]}
+                            onScroll={[Function]}
+                            onScrollBeginDrag={[Function]}
+                            onScrollEndDrag={[Function]}
+                            refreshControl={
+                              <RefreshControlMock
+                                onRefresh={[Function]}
+                                refreshing={false}
+                              />
+                            }
+                            refreshing={false}
+                            removeClippedSubviews={false}
+                            renderItem={[Function]}
+                            scrollEventThrottle={50}
+                            stickyHeaderIndices={Array []}
+                            style={
+                              Object {
+                                "backgroundColor": "#FFFFFF",
+                                "height": "100%",
+                                "width": "100%",
+                              }
+                            }
+                            viewabilityConfigCallbackPairs={Array []}
+                          >
+                            <RCTRefreshControl />
+                            <View />
+                          </RCTScrollView>
+                        </View>
+                        <View
+                          accessible={true}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "backgroundColor": "#FFFFFF",
+                              "borderRadius": 15.599999999999998,
+                              "bottom": 20,
+                              "elevation": 0,
+                              "height": 31.199999999999996,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "position": "absolute",
+                              "right": 20,
+                              "shadowColor": "#000000",
+                              "shadowOffset": Object {
+                                "height": 2,
+                                "width": 0,
+                              },
+                              "shadowOpacity": 0.5,
+                              "shadowRadius": 5,
+                              "width": 31.199999999999996,
+                              "zIndex": 1000,
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Object {
+                                "transform": Array [
+                                  Object {
+                                    "scale": 1,
+                                  },
+                                ],
+                              }
+                            }
+                          >
+                            <RNSVGSvgView
+                              align="xMidYMid"
+                              bbHeight={22.97142857142857}
+                              bbWidth={22.97142857142857}
+                              fill="#777777"
+                              focusable={false}
+                              height={22.97142857142857}
+                              meetOrSlice={0}
+                              minX={0}
+                              minY={0}
+                              style={
+                                Array [
+                                  Object {
+                                    "backgroundColor": "transparent",
+                                    "borderWidth": 0,
+                                  },
+                                  Object {
+                                    "flex": 0,
+                                    "height": 22,
+                                    "width": 22,
+                                  },
+                                ]
+                              }
+                              vbHeight={24}
+                              vbWidth={24}
+                              width={22.97142857142857}
+                            >
+                              <RNSVGGroup
+                                fill={4286019447}
+                                propList={
+                                  Array [
+                                    "fill",
+                                  ]
+                                }
+                              >
+                                <RNSVGGroup>
+                                  <RNSVGGroup>
+                                    <RNSVGRect
+                                      height="24"
+                                      opacity={0}
+                                      width="24"
+                                      x={0}
+                                      y={0}
+                                    />
+                                    <RNSVGPath
+                                      d="M19 7h-3V5.5A2.5 2.5 0 0 0 13.5 3h-3A2.5 2.5 0 0 0 8 5.5V7H5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-8a3 3 0 0 0-3-3zm-9-1.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V7h-4zM20 18a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1z"
+                                    />
+                                    <RNSVGPath
+                                      d="M12 10.5a3.5 3.5 0 1 0 3.5 3.5 3.5 3.5 0 0 0-3.5-3.5zm0 5a1.5 1.5 0 1 1 1.5-1.5 1.5 1.5 0 0 1-1.5 1.5z"
+                                    />
+                                  </RNSVGGroup>
+                                </RNSVGGroup>
+                              </RNSVGGroup>
+                            </RNSVGSvgView>
+                          </View>
+                          <Text
+                            style={
+                              Object {
+                                "color": "#777777",
+                                "fontFamily": "System",
+                                "fontSize": 8.922857142857143,
+                              }
+                            }
+                          >
+                            Scan
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RNSScreen>
+    </RNSScreenContainer>
+  </RNCSafeAreaProvider>
+</View>
+`;
+
+exports[`<MyConnectionsScreen /> should render MyConnections and show introductory text 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RNCSafeAreaProvider
+    onInsetsChange={[Function]}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      pointerEvents="box-none"
+      style={
+        Object {
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        onLayout={[Function]}
+        pointerEvents="box-none"
+        style={null}
+      >
+        <View
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "opacity": 1,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "zIndex": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "rgb(255, 255, 255)",
+                "borderBottomColor": "rgb(216, 216, 216)",
+                "flex": 1,
+                "shadowColor": "rgb(216, 216, 216)",
+                "shadowOffset": Object {
+                  "height": 0.5,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.85,
+                "shadowRadius": 0,
+              }
+            }
+          />
+        </View>
+        <View
+          pointerEvents="box-none"
+          style={
+            Object {
+              "height": 64,
+              "maxHeight": undefined,
+              "minHeight": undefined,
+              "opacity": undefined,
+              "transform": undefined,
+            }
+          }
+        >
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 20,
+              }
+            }
+          />
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              pointerEvents="box-none"
+              style={
+                Object {
+                  "marginHorizontal": 16,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                accessibilityRole="header"
+                aria-level="1"
+                collapsable={false}
+                nativeID="animatedComponent"
+                numberOfLines={1}
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 17,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                MockedScreen
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <RNSScreenContainer
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <RNSScreen
+        activityState={2}
+        forwardedRef={[Function]}
+        pointerEvents="box-none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        />
+        <View
+          accessibilityElementsHidden={false}
+          closing={false}
+          gestureVelocityImpact={0.3}
+          importantForAccessibility="auto"
+          onClose={[Function]}
+          onGestureBegin={[Function]}
+          onGestureCanceled={[Function]}
+          onGestureEnd={[Function]}
+          onOpen={[Function]}
+          onTransitionStart={[Function]}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          transitionSpec={
+            Object {
+              "close": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
+                  "stiffness": 1000,
+                },
+              },
+              "open": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
+                  "stiffness": 1000,
+                },
+              },
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            nativeID="animatedComponent"
+            needsOffscreenAlphaCompositing={false}
+            pointerEvents="box-none"
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              enabled={false}
+              hitSlop={
+                Object {
+                  "right": -270,
+                }
+              }
+              maxDeltaY={20}
+              minOffsetX={5}
+              onHandlerStateChange={[Function]}
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "transform": Array [
+                      Object {
+                        "translateX": 0,
+                      },
+                      Object {
+                        "translateX": 0,
+                      },
+                    ],
+                  }
+                }
+              >
+                <View
+                  pointerEvents="none"
+                  style={
+                    Object {
+                      "backgroundColor": "rgb(242, 242, 242)",
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "shadowColor": "#000",
+                      "shadowOffset": Object {
+                        "height": 1,
+                        "width": -1,
+                      },
+                      "shadowOpacity": 0.3,
+                      "shadowRadius": 5,
+                      "top": 0,
+                      "width": 3,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "flex": 1,
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "rgb(242, 242, 242)",
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "flexDirection": "column-reverse",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "flex": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "backgroundColor": "#FFFFFF",
+                              "flex": 1,
+                              "height": "100%",
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <RCTScrollView
+                            contentContainerStyle={
+                              Object {
+                                "margin": 15,
+                                "marginBottom": 40,
+                                "padding": 10,
+                                "paddingBottom": 166.35714285714286,
+                              }
+                            }
+                            data={Array []}
+                            getItem={[Function]}
+                            getItemCount={[Function]}
+                            keyExtractor={[Function]}
+                            onContentSizeChange={[Function]}
+                            onLayout={[Function]}
+                            onMomentumScrollBegin={[Function]}
+                            onMomentumScrollEnd={[Function]}
+                            onRefresh={[Function]}
+                            onScroll={[Function]}
+                            onScrollBeginDrag={[Function]}
+                            onScrollEndDrag={[Function]}
+                            refreshControl={
+                              <RefreshControlMock
+                                onRefresh={[Function]}
+                                refreshing={false}
+                              />
+                            }
+                            refreshing={false}
+                            removeClippedSubviews={false}
+                            renderItem={[Function]}
+                            scrollEventThrottle={50}
+                            stickyHeaderIndices={Array []}
+                            style={
+                              Object {
+                                "backgroundColor": "#FFFFFF",
+                                "height": "100%",
+                                "width": "100%",
+                              }
+                            }
+                            viewabilityConfigCallbackPairs={Array []}
+                          >
+                            <RCTRefreshControl />
+                            <View />
+                          </RCTScrollView>
+                        </View>
+                        <View
+                          accessible={true}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "backgroundColor": "#FFFFFF",
+                              "borderRadius": 15.599999999999998,
+                              "bottom": 20,
+                              "elevation": 0,
+                              "height": 31.199999999999996,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "position": "absolute",
+                              "right": 20,
+                              "shadowColor": "#000000",
+                              "shadowOffset": Object {
+                                "height": 2,
+                                "width": 0,
+                              },
+                              "shadowOpacity": 0.5,
+                              "shadowRadius": 5,
+                              "width": 31.199999999999996,
+                              "zIndex": 1000,
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Object {
+                                "transform": Array [
+                                  Object {
+                                    "scale": 1,
+                                  },
+                                ],
+                              }
+                            }
+                          >
+                            <RNSVGSvgView
+                              align="xMidYMid"
+                              bbHeight={22.97142857142857}
+                              bbWidth={22.97142857142857}
+                              fill="#777777"
+                              focusable={false}
+                              height={22.97142857142857}
+                              meetOrSlice={0}
+                              minX={0}
+                              minY={0}
+                              style={
+                                Array [
+                                  Object {
+                                    "backgroundColor": "transparent",
+                                    "borderWidth": 0,
+                                  },
+                                  Object {
+                                    "flex": 0,
+                                    "height": 22,
+                                    "width": 22,
+                                  },
+                                ]
+                              }
+                              vbHeight={24}
+                              vbWidth={24}
+                              width={22.97142857142857}
+                            >
+                              <RNSVGGroup
+                                fill={4286019447}
+                                propList={
+                                  Array [
+                                    "fill",
+                                  ]
+                                }
+                              >
+                                <RNSVGGroup>
+                                  <RNSVGGroup>
+                                    <RNSVGRect
+                                      height="24"
+                                      opacity={0}
+                                      width="24"
+                                      x={0}
+                                      y={0}
+                                    />
+                                    <RNSVGPath
+                                      d="M19 7h-3V5.5A2.5 2.5 0 0 0 13.5 3h-3A2.5 2.5 0 0 0 8 5.5V7H5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-8a3 3 0 0 0-3-3zm-9-1.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V7h-4zM20 18a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1z"
+                                    />
+                                    <RNSVGPath
+                                      d="M12 10.5a3.5 3.5 0 1 0 3.5 3.5 3.5 3.5 0 0 0-3.5-3.5zm0 5a1.5 1.5 0 1 1 1.5-1.5 1.5 1.5 0 0 1-1.5 1.5z"
+                                    />
+                                  </RNSVGGroup>
+                                </RNSVGGroup>
+                              </RNSVGGroup>
+                            </RNSVGSvgView>
+                          </View>
+                          <Text
+                            style={
+                              Object {
+                                "color": "#777777",
+                                "fontFamily": "System",
+                                "fontSize": 8.922857142857143,
+                              }
+                            }
+                          >
+                            Scan
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RNSScreen>
+    </RNSScreenContainer>
+  </RNCSafeAreaProvider>
+</View>
+`;

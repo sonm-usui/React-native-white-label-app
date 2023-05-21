@@ -1,0 +1,82 @@
+[ignore]
+.*/.cache/.*
+.*/dist/.*
+.*/test/.*
+.*/node_modules/.*
+.*/coverage/.*
+.*/__mocks__/.*
+; We fork some components by platform
+.*/*[.]android.js
+
+; Ignore templates for 'react-native init'
+.*/local-cli/templates/.*
+
+; Ignore the website subdir
+<PROJECT_ROOT>/website/.*
+
+; Ignore "BUCK" generated dirs
+<PROJECT_ROOT>/\.buckd/
+
+; These should not be required directly
+; require from fbjs/lib instead: require('fbjs/lib/warning')
+node_modules/warning/.*
+
+; Ignore duplicate module providers
+; For RN Apps installed via npm, "Libraries" folder is inside
+; "node_modules/react-native" but in the source repo it is in the root
+.*/node_modules/jest-runtime/build/__tests__/.*
+
+; Ignore libraries to check
+.*/node_modules/react-native-touch-id/.*
+.*/node_modules/react-native-linear-gradient/.*
+.*/node_modules/react-native-camera/.*
+.*/node_modules/react-native-permissions/.*
+.*/node_modules/react-native-share/.*
+.*/node_modules/eslint-plugin-jsx-a11y/.*
+.*/node_modules/react-native-keyboard-aware-scroll-view/.*
+.*/node_modules/react-native-gesture-handler/.*
+; Although this library has definition, but they are not correct. So, we have defined our own type
+.*/node_modules/react-native-image-resizer/.*
+.*/node_modules/child-process-async/.*
+.*/node_modules/react-native-device-info/.*
+
+; Ignore polyfills
+.*/Libraries/polyfills/.*
+
+; Flow doesn't support platforms
+.*/Libraries/Utilities/LoadingView.js
+
+[untyped]
+.*/node_modules/@react-native-community/cli/.*/.*
+.*/node_modules/react-native/Libraries/vendor/core/ErrorUtils.js
+.*/node_modules/@react-navigation/drawer/.*
+
+[include]
+.*/node_modules/@react-navigation/core/.*/.*
+.*/node_modules/@react-navigation/native/.*/.*
+
+[libs]
+Libraries/react-native/react-native-interface.js
+node_modules/react-native/Libraries/react-native/react-native-interface.js
+node_modules/react-native/flow/
+flow-typed/npm/
+node_modules/react-native/flow-github/
+
+[lints]
+
+[options]
+module.system.node.resolve_dirname=node_modules
+module.system.node.resolve_dirname=src
+munge_underscores=true
+autoimports=true
+[strict]
+deprecated-type
+nonstrict-import
+sketchy-null
+unclear-type
+unsafe-getters-setters
+untyped-import
+untyped-type-import
+
+[version]
+^0.149.0

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomDate /> should ConnectionHistoryDetails render properly 1`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "fontSize": 17,
+      },
+      Object {
+        "fontFamily": "System",
+      },
+      Object {
+        "backgroundColor": "#333333",
+        "color": "#ffffff",
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+    ]
+  }
+  suppressHighlighting={true}
+>
+  2018-01-10T04:32:43+05:30
+</Text>
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Restore Passphrase screen should render properly and match the snapshot 1`] = `
+<RCTSafeAreaView
+  accessibilityLabel="restore-encrypt-phrase-container-touchable"
+  accessible={false}
+  emulateUnlessSupported={true}
+  focusable={true}
+  hitSlop={
+    Object {
+      "bottom": 20,
+      "left": 20,
+      "right": 20,
+      "top": 20,
+    }
+  }
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  safeArea={true}
+  style={
+    Object {
+      "backgroundColor": "#86B93B",
+      "flex": 1,
+    }
+  }
+  testID="restore-encrypt-phrase-container-touchable"
+>
+  <Image
+    source={
+      Object {
+        "default": "RelativeImageStub",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "position": "absolute",
+        },
+      ]
+    }
+  />
+</RCTSafeAreaView>
+`;

@@ -1,0 +1,406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app lock selection page should render properly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+  tertiary={true}
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "flex": 1,
+            "flexDirection": "column",
+            "paddingBottom": 5,
+            "paddingHorizontal": 20,
+          }
+        }
+        tertiary={true}
+      >
+        <View
+          center={true}
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            }
+          }
+        />
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "fontSize": 19,
+              },
+              Object {
+                "fontFamily": "System",
+              },
+              Object {
+                "backgroundColor": "#ffffff",
+                "color": "#777777",
+              },
+              Object {
+                "fontWeight": "800",
+              },
+              Object {
+                "textAlign": "center",
+              },
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              Object {
+                "fontFamily": "System",
+                "fontSize": 25.777142857142856,
+                "fontStyle": "normal",
+                "fontWeight": "700",
+                "lineHeight": 29.67142857142857,
+                "marginBottom": 47.647058823529406,
+                "marginTop": 39.118235294117646,
+                "paddingHorizontal": 20,
+                "textAlign": "center",
+              },
+            ]
+          }
+          suppressHighlighting={true}
+        >
+          Biometrics are faster.
+        </Text>
+        <View
+          accessibilityLabel="lock-selection-or-text-touchable"
+          accessible={false}
+          center={true}
+          debounceAction={false}
+          focusable={true}
+          hitSlop={
+            Object {
+              "bottom": 20,
+              "left": 20,
+              "right": 20,
+              "top": 20,
+            }
+          }
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginBottom": 39.705882352941174,
+            }
+          }
+          testID="lock-selection-or-text-touchable"
+        >
+          <Image
+            source={
+              Object {
+                "default": "RelativeImageStub",
+              }
+            }
+          />
+        </View>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "fontSize": 17,
+              },
+              Object {
+                "fontFamily": "System",
+              },
+              Object {
+                "backgroundColor": "#ffffff",
+                "color": "#777777",
+              },
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              Object {
+                "fontSize": 16.271428571428572,
+                "lineHeight": 21.057142857142857,
+              },
+            ]
+          }
+          suppressHighlighting={true}
+        >
+          You can use your face or finger to unlock this app. Your passcode will still be required if biometrics fail.
+        </Text>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#86B93B",
+              "borderRadius": 5,
+              "elevation": 7,
+              "justifyContent": "center",
+              "marginBottom": 13.897058823529411,
+              "marginTop": 39.705882352941174,
+              "opacity": 1,
+              "padding": 16.271428571428572,
+              "paddingLeft": 9.571428571428571,
+              "paddingRight": 9.571428571428571,
+              "shadowColor": "#777777",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 1,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 5,
+              "width": 280,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "fontSize": 19,
+                },
+                Object {
+                  "fontFamily": "System",
+                },
+                Object {
+                  "backgroundColor": "#333333",
+                  "color": "#ffffff",
+                },
+                Object {
+                  "fontWeight": "800",
+                },
+                Object {
+                  "textAlign": "center",
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+              ]
+            }
+            suppressHighlighting={true}
+          >
+            Use biometrics
+          </Text>
+        </View>
+        <Text
+          allowFontScaling={false}
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "fontSize": 17,
+              },
+              Object {
+                "fontFamily": "System",
+              },
+              Object {
+                "backgroundColor": "#ffffff",
+                "color": "#777777",
+              },
+              Object {
+                "fontWeight": "bold",
+              },
+              Object {
+                "textAlign": "center",
+              },
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              Object {
+                "color": "#86B93B",
+                "lineHeight": 32.542857142857144,
+              },
+            ]
+          }
+          suppressHighlighting={true}
+        >
+          No thanks
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "marginHorizontal": 10,
+              "marginTop": 19.142857142857142,
+            }
+          }
+          tertiary={true}
+        >
+          <View
+            row={true}
+            spaceBetween={true}
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+            tertiary={true}
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "#ffffff",
+                }
+              }
+              tertiary={true}
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 17,
+                    },
+                    Object {
+                      "fontFamily": "System",
+                    },
+                    Object {
+                      "backgroundColor": "#ffffff",
+                      "color": "#777777",
+                    },
+                    Object {
+                      "fontWeight": "bold",
+                    },
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                  ]
+                }
+                suppressHighlighting={true}
+              >
+                Use Staging Net
+              </Text>
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 11,
+                    },
+                    Object {
+                      "fontFamily": "System",
+                    },
+                    Object {
+                      "backgroundColor": "#ffffff",
+                      "color": "#777777",
+                    },
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                  ]
+                }
+                suppressHighlighting={true}
+              >
+                An alternative network for app developers
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                }
+              }
+              tertiary={true}
+            >
+              <RCTSwitch
+                accessibilityRole="switch"
+                onChange={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                onTintColor="#85bf43"
+                style={
+                  Object {
+                    "height": 31,
+                    "width": 51,
+                  }
+                }
+                value={false}
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
