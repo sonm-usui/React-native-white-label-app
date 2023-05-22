@@ -62,7 +62,7 @@ export const getIcon = (mimeType: string) => {
 export const checkObjectTypes = (attachment: any) =>
   !attachment['mime-type'] ||
   !attachment.data ||
-  !attachment.data.base64 ||
+  (!attachment.data.base64 && !attachment.data.link) ||
   !attachment.extension ||
   !attachment.name
     ? true

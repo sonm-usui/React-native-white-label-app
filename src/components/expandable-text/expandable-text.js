@@ -75,7 +75,7 @@ export function ExpandableText({
   return (
     <>
       {expanded || Platform.OS === 'android' ? (
-        <Text style={style} onTextLayout={onTextLayout} {...rest} onPress={handlePress}>
+        <Text style={style} onTextLayout={onTextLayout} {...rest}>
           {text}
         </Text>
       ) : (

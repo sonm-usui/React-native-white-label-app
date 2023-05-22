@@ -1,6 +1,6 @@
 // @flow
 import React, { useCallback } from 'react'
-import { Text, View, Image, TouchableOpacity, Alert } from 'react-native'
+import { Text, View, Image, TouchableOpacity, Alert, Linking } from 'react-native'
 import RNFetchBlob from 'rn-fetch-blob'
 import FileViewer from 'react-native-file-viewer'
 
@@ -86,9 +86,12 @@ const Attachment = (props: AttachmentPropType) => {
       label,
       attachment: {
         extension,
-        data: { base64 },
+        data: { base64, link },
       },
     } = props
+    if(props.attachment.data.link){
+      Linking.openURL(props.attachment.data.link)
+    } else {
     // create file path with DocumentDirectory, uid, remotePairwiseDID and label
     const attachmentPath = `${RNFetchBlob.fs.dirs.DocumentDir}/${remotePairwiseDID}-${uid}-${label}.${extension}`
     // check if file exists
@@ -122,6 +125,7 @@ const Attachment = (props: AttachmentPropType) => {
         'CO003: Error opening file.',
         `Please install an application which can handle .${extension}`
       )
+    }
     }
   }, [props])
 
