@@ -24,14 +24,14 @@ export const RenderAttachmentIcon = (
   let attachment: $PropertyType<AttachmentPropType, 'attachment'> | null = null
 
   if (label.toLowerCase().endsWith('_link')) {
-    attachment = JSON.parse(data)
-
     try {
+        attachment = JSON.parse(data)
       if (checkObjectTypes(attachment)) {
         throw new Error('Invalid data')
       }
     } catch (e) {
       console.log(e.message)
+      alert('Invalid data');
       return null
     }
 
